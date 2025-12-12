@@ -540,7 +540,7 @@ Created by Bellevue Theme
     =            Main Banner Section Styles            =
     =============================================*/
     .thmv-main-banner{
-      background: url('../images/top-header-bg.jpg');
+      background: url('../images/hero-index.png');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -775,7 +775,7 @@ Created by Bellevue Theme
            padding: 0 10px;
        }
        .datepick-ctrl .datepick-cmd:hover {
-           background-color: rgb(28 23 21 / 20%);s
+           background-color: rgb(28 23 21 / 20%);
            color: #1C1715;
        }
        .datepick-popup .datepick-nav .datepick-cmd-today,
@@ -808,6 +808,15 @@ Created by Bellevue Theme
     =============================================*/
     .thmv-facilities-sec {
         padding:150px 10px;
+    }
+    .thmv-facilities-sec .thmv-facilities-img {
+        height: 280px;
+        overflow: hidden;
+    }
+    .thmv-facilities-sec .thmv-facilities-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .thmv-facilities-sec .thmv-facilities-info{
         margin-top:30px;
@@ -854,6 +863,14 @@ Created by Bellevue Theme
     } 
     .slick-slide img{
       width: 100%;
+    }
+    .thmv-our-hotel .slick-image-center .slick-slide img {
+      height: 400px;
+      object-fit: cover;
+    }
+    .thmv-our-service .slick-image-center .slick-slide img {
+      height: 450px;
+      object-fit: cover;
     }
     .slick-dots li button::before{
         content:"\f111";
@@ -926,6 +943,8 @@ Created by Bellevue Theme
     }
     .thmv-room-view img{ 
         width:100%;
+        height: 350px;
+        object-fit: cover;
     }
     .thmv-room-view .thmv-room-price{
         position: absolute;
@@ -1214,6 +1233,11 @@ Created by Bellevue Theme
     }
     .thmv-insta-feed-sec{
         padding-top:40px;
+    }
+    .thmv-insta-feed-sec img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
     }
 /*=====  End Of Instagram-Feed Section Style ======*/
 
