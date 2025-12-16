@@ -3651,6 +3651,8 @@ label {
 
 /*=====  End of Our menu section style  ======*/
 
+
+/*about us section styles*/
 .thmv-our-hotel h5 {
     padding: 30px 0 0px;
 }
@@ -3694,4 +3696,27 @@ label {
 }
 .location-section{
     padding-top: 10em;
+}
+
+
+/*----------  Contact Info Style  ----------*/
+.thmv-contact-info ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px; 
+}
+
+.thmv-info-icon {
+  width: 40px;           
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.textarea-form{
+    height: 20em!important;
+
+}
+.form-div{
+    padding-top: 2.5em;
 }
