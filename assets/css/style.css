@@ -1782,7 +1782,7 @@ label {
 
 .thmv-list-box {
     margin-bottom: 30px;
-    max-width: 710px;
+    width: 100%;
 }
 
 .thmv-first-list {
@@ -1793,6 +1793,13 @@ label {
 
 .thmv-listimg {
     position: relative;
+}
+
+.thmv-listimg img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
 }
 
 .thmv-listimg-top h5 {
@@ -2006,7 +2013,7 @@ label {
     =            Room Listing One Column V2 Section Style            =
     ==============================================*/
 .thmv-room-headv2 {
-    background: url('../images/rooms-v2-top-banner.jpg');
+    background: url('../images/aboutus/aboutus-banner.JPG');
     min-height: 340px;
     background-size: cover;
     background-position: center;
@@ -2014,16 +2021,28 @@ label {
     z-index: 1;
 }
 
+.thmv-room-headv2 .container {
+    position: relative;
+    z-index: 2;
+}
+
+.thmv-room-headv2 h1,
+.thmv-room-headv2 p,
+.thmv-room-headv2 .breadcrumb-item,
+.thmv-room-headv2 .breadcrumb-item a {
+    color: #fff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .thmv-room-headv2:after {
     content: "";
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(25px);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
-    width: 42%;
-    height: 340px;
-    left: -6px;
+    width: 100%;
+    height: 100%;
+    left: 0;
     top: 0;
-    z-index: -1;
+    z-index: 0;
 }
 
 .thmv-room-listv2-sec {
