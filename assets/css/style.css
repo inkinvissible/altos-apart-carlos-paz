@@ -3750,16 +3750,27 @@ label {
     gap: 1em;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 2em;
+}
+
+.gallery-section {
+    row-gap: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery img {
     height: 15em;
     width: 15em;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
 }
 
 
 .gallery img:hover {
-    transform: scale(1.03);
+    transform: scale(1.03) ;
+    cursor: pointer;
 }
 
 
